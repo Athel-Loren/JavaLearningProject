@@ -42,7 +42,7 @@ public class VariablesAndComments {
         id = 24453454567658L;
         operatingSystemVersion =16.16F;
         price = 32456.8;
-        // add comment with CTRL+?
+        // CTRL+?
 
         System.out.println("The Phone is charged " + isCharged);
 
