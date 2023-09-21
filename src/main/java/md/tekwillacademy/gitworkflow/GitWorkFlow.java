@@ -4,8 +4,8 @@ public class GitWorkFlow {
     public static void main(String[] args) {
 
         String step1 = "1. Execute git stash in the console to store the uncommitted changes";
-        String step2 ="2. Perform git checkout master - to move to the local master branch";
-        String step3 ="3. Execute git fetch command - to fetch the origin branches";
+        String step2 = "2. Perform git checkout master - to move to the local master branch";
+        String step3 = "3. Execute git fetch command - to fetch the origin branches";
         String step4 = "4. Perform git checkout -b new_branch_name command - to create and instantly move to a new branch, that is identical to local master branch.";
         String step5 = "5. Add your changes that related to the task";
         String step6 = "6. Review your changes and check your code before committing them";
