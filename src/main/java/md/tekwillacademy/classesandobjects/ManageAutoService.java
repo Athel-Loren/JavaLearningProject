@@ -36,7 +36,7 @@ public class ManageAutoService {
         //Worker ion= new Worker();
 
         Person client1 =new Person("+37379277943");
-        Person client10 = new Person(); // va apela constructorul fara parametri
+        //Person client10 = new Person();  va apela constructorul fara parametri
 
         Car porscheNKK132 = new Car("AsdDD32", "Posche Cayenne", client1);
 
