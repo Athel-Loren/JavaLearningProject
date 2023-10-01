@@ -12,10 +12,10 @@ public class ExecutionService {
         int randomInt = DataGeneratorUtil.getRandomInt(-50);
         System.out.println(randomInt);
 
-        System.out.println(DataGeneratorUtil.getTandomEmail("gmail.com"));
-        System.out.println(DataGeneratorUtil.getTandomEmail("gmail.com"));
-        System.out.println(DataGeneratorUtil.getTandomEmail("gmail.com"));
-        System.out.println(DataGeneratorUtil.getTandomEmail("gmail.com"));
+        System.out.println(DataGeneratorUtil.getRandomEmail("gmail.com"));
+        System.out.println(DataGeneratorUtil.getRandomEmail("gmail.com"));
+        System.out.println(DataGeneratorUtil.getRandomEmail("gmail.com"));
+        System.out.println(DataGeneratorUtil.getRandomEmail("gmail.com"));
 
 
         Customer customer1 = new Customer("Fat Frumos", "Masculin", 20);
@@ -30,6 +30,8 @@ public class ExecutionService {
 
         System.out.println("Virsta este: " +customer1.getAge());
         System.out.println("Familia este: " +customer1.getName());
+
+        System.out.println(DataGeneratorUtil.getRandomEmail(10, "gmail.com"));
 
 
 
